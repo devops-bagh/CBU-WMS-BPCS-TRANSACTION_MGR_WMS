@@ -5,25 +5,25 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Hrefs {
 	
 	@JsonProperty("ref")
-	public Hrefs ref;
+	private String ref;
 
 	@JsonProperty("url")
-	public Hrefs url;
+	private String url;
 	
 
-	public Hrefs getRef() {
+	public String getRef() {
 		return ref;
 	}
 
-	public void setRef(Hrefs ref) {
+	public void setRef(String ref) {
 		this.ref = ref;
 	}
 
-	public Hrefs getUrl() {
+	public String getUrl() {
 		return url;
 	}
 
-	public void setUrl(Hrefs url) {
+	public void setUrl(String url) {
 		this.url = url;
 	}
 }

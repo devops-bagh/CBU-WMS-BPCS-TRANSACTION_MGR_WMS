@@ -7,110 +7,110 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class WMSRespuesta {
 	
 	@JsonProperty("fieldOverrides")
-	public String fieldOverrides;
+	private FieldOverrides fieldOverrides;
 	
 	@JsonProperty("hrefs")
-	public Hrefs hrefs;
+	private Hrefs hrefs;
 	
 	@JsonProperty("transmitlogkey")
-	public String transmitLogKey;
+	private String transmitLogKey;
 	
 	@JsonProperty("adddate")
-	public String addDate;
+	private String addDate;
 	
 	@JsonProperty("addwho")
-	public String addWho;
+	private String addWho;
 	
 	@JsonProperty("billingtransmitflag")
-	public String billingTransmitFlag;
+	private String billingTransmitFlag;
 	
 	@JsonProperty("editdate")
-	public String editDate;
+	private String editDate;
 	
 	@JsonProperty("editwho")
-	public String editWho;
+	private String editWho;
 	
 	@JsonProperty("eventcategory")
-	public String eventCategory;
+	private String eventCategory;
 	
 	@JsonProperty("eventfailurecount")
-	public BigDecimal eventFailureCount;
+	private BigDecimal eventFailureCount;
 	
 	@JsonProperty("eventstatus")
-	public BigDecimal eventStatus;
+	private BigDecimal eventStatus;
 	
 	@JsonProperty("key1")
-	public String key1;
+	private String key1;
 	
 	@JsonProperty("key2")
-	public String key2;
+	private String key2;
 	
 	@JsonProperty("key3")
-	public String key3;
+	private String key3;
 	
 	@JsonProperty("key4")
-	public String key4;
+	private String key4;
 	
 	@JsonProperty("key5")
-	public String key5;
+	private String key5;
 	
 	@JsonProperty("labortransmitflag")
-	public String laborTransmitFlag;
+	private String laborTransmitFlag;
 	
 	@JsonProperty("message")
-	public String message;	
+	private String message;	
 	
 	@JsonProperty("serialkey")
-	public BigDecimal serialKey;
+	private BigDecimal serialKey;
 	
 	@JsonProperty("tablename")
-	public String tableName;
+	private String tableName;
 	
 	@JsonProperty("tmTransmitFlag")
-	public String tmTransmitFlag;
+	private String tmTransmitFlag;
 	
 	@JsonProperty("transmitBatch")
-	public String transmitBatch;
+	private String transmitBatch;
 	
 	@JsonProperty("transmitflag")
-	public String transmitFlag;
+	private String transmitFlag;
 	
 	@JsonProperty("transmitflag2")
-	public String transmitFlag2;
+	private String transmitFlag2;
 	
 	@JsonProperty("transmitflag3")
-	public String transmitFlag3;
+	private String transmitFlag3;
 	
 	@JsonProperty("transmitflag4")
-	public String transmitFlag4;
+	private String transmitFlag4;
 	
 	@JsonProperty("transmitflag5")
-	public String transmitFlag5;
+	private String transmitFlag5;
 	
 	@JsonProperty("transmitflag6")
-	public String transmitFlag6;
+	private String transmitFlag6;
 	
 	@JsonProperty("transmitflag7")
-	public String transmitFlag7;
+	private String transmitFlag7;
 	
 	@JsonProperty("transmitflag8")
-	public String transmitFlag8;
+	private String transmitFlag8;
 	
 	@JsonProperty("transmitflag9")
-	public String transmitFlag9;
+	private String transmitFlag9;
 	
 	@JsonProperty("whseid")
-	public String whseid;
+	private String whseid;
 	
 	@JsonProperty("jsonMessage")
-	public String jsonMessage;
+	private String jsonMessage;
 
 	
-	public String getFieldOverrides() {
+	public FieldOverrides getFieldOverrides() {
 		return fieldOverrides;
 	}
 
-	public void setFieldOverrides(String fieldOverrides) {
+	public void setFieldOverrides(FieldOverrides fieldOverrides) {
 		this.fieldOverrides = fieldOverrides;
 	}
 
